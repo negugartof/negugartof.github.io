@@ -1,3 +1,6 @@
+html{
+  overflow-x: hidden;
+}
 /* carrousel */
 .scroll-down {
   position: absolute;
@@ -195,7 +198,7 @@ img{
 /* Galeria */
 .perfil{
   margin-top: 1%;
-  margin-left:75%;
+  margin-left:65%;
   width: 25%;
   height: auto;
 }
@@ -217,7 +220,7 @@ img{
     width: 30%;
     height: auto;
   }
-  .collage{
+  .collage3{
     margin-top:-75%;
     margin-left: 80%;
     width: 35%;
@@ -405,7 +408,7 @@ img{
       width: 25%;
       height: auto;
     }
-    .colla{
+    .collage{
       margin-top: -15%;
       margin-left:85%;
       width: 45%;
@@ -435,7 +438,7 @@ img{
       width: 25%;
       height: auto;
     }
-        /* GALERIA TRASH */
+        /* GALERIA COLLAGE */
         .ballena{
           margin-top: 1%;
           margin-left:15%;

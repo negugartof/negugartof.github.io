@@ -138,6 +138,23 @@ img {
 	right: 110px;
 }
 
+
+
+@media screen and (max-width: 1067px) {
+	.btnc{
+		margin-left: 45%;
+	}
+}
+
+@media screen and (max-width: 895px) {
+	.btnc{
+		display: none;
+	}
+}
+
+
+
+
 /* nav de abajo */
 .nav2 {
 	text-align: center;
@@ -158,6 +175,24 @@ img {
 .c {
 	font-family: 'Space Mono', monospace;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* botones individuales */
 .mus {
@@ -209,7 +244,28 @@ img {
 
 
 
+
+
+
+
+
+
+
+/* video */
+@media screen and (max-width: 800px) {
+	#cajamadre .video{
+		display: none;
+	}
+}
+
+
+
 /* Galeria */
+
+
+
+
+
 .perfil {
 	margin-top: -30%;
 	margin-left: 55%;
@@ -282,26 +338,53 @@ img {
 	-webkit-box-shadow: 5px 5px 25px rgb(73, 73, 73);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
 	.celu {
 		display: none;
 	}
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
 	.nav {
 		display: none;
 	}
 }
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:800px) {
 	.navc {
 		display: none;
 	}
 }
 
 
+
+
+/* galeria de fotos */
+@media screen and (max-width: 800px) {
+	.celug {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 10px 20px;
+	}
+	.columna{
+		flex:20%;
+		max-width: 20%;
+		padding: 0 4px;
+	}
+	.columna img{
+		margin: 8px;
+		vertical-align: middle;
+		width: 100%;
+		transition: aa .3s ease;
+	}
+	.layer{
+		margin-top: 0;
+		margin-left: 0;
+		width: 100%;
+		height: auto;
+	}
+}
 
 
 /* GALERIA COLLAGE */
@@ -406,6 +489,32 @@ img {
 	width: 25%;
 	height: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* estilo modal */
 .galeria{
 	flex-wrap: wrap;
@@ -517,6 +626,47 @@ img {
 	}
 }
 
+
+
+
+
+
+
+/* modal celu */
+@media screen and (max-width: 800px) {
+	.overlay{
+		width: 100%;
+		height: 100%;
+	}
+	.overlay .slideshow{
+		top:0%;
+		width: 75%;
+		height: 80%;
+	}
+	.adelante{
+		left: 95%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* informacion */
 .info-foto{
 	margin-top: -15%;
@@ -545,6 +695,26 @@ img {
 	margin-top: 10px;
 	font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* contacto */
 .form{
@@ -592,4 +762,14 @@ textarea{
 	form{
 		width:100%;
 	}
+}
+.wsp{
+	margin-top: -13%;
+	margin-bottom: 10%;
+	margin-left: 85%;
+	width: 9%;
+	height: auto;
+}
+.wsp img{
+	border-radius: 50%;
 }

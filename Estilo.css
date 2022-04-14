@@ -257,7 +257,11 @@ img {
 		display: none;
 	}
 }
-
+@media screen and (max-width: 799px) {
+	.menu{
+		display: none;
+	}
+}
 
 
 /* Galeria */
@@ -331,8 +335,8 @@ img {
 .negupie {
 	margin-top: 0.5%;
 	text-align: center;
+	font-family: 'Space Mono', monospace;
 }
-
 
 .sombrac {
 	-webkit-box-shadow: 5px 5px 25px rgb(73, 73, 73);
@@ -362,7 +366,21 @@ img {
 
 /* galeria de fotos */
 @media screen and (max-width: 800px) {
-	.celug {
+	.celug{
+		display: none;
+	}
+}
+@media screen and (min-width: 800px) {
+	.celug2{
+		display: none;
+	}
+}
+
+
+
+ 
+@media screen and (max-width: 800px) {
+	.celug2 {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 10px 20px;
@@ -378,14 +396,13 @@ img {
 		width: 100%;
 		transition: aa .3s ease;
 	}
-	.layer{
+	/* .layer{
 		margin-top: 0;
 		margin-left: 0;
 		width: 100%;
 		height: auto;
-	}
+	} */
 }
-
 
 /* GALERIA COLLAGE */
 .uno {
@@ -619,12 +636,15 @@ img {
 		width: 98%;
 	}
 }
-@media screen and (max-width:600px){
+
+
+/* hace q la columna sea 1 en vez de 2 en el celu */
+/* @media screen and (max-width:600px){
 	.columna{
 		flex: 100%;
 		max-width: 100%;
 	}
-}
+} */
 
 
 
@@ -697,11 +717,35 @@ img {
 }
 
 
+@media screen and (max-width: 800px) {
+	.cont-info{
+		display: none;
+	}
+}
+/* info para celu */
+.cont-info2{
+	margin-left: 5%;
+	margin-right: 5%;
+	align-items: center;
+	justify-content: center;
+}
+.cont-info2 h3{
+	font-family: 'Space Mono', monospace;
+	text-align: center;
+	margin-top: 5%;
+}
+.cont-info2 p{
+	font-family: 'Space Mono', monospace;
+	text-align: justify;
+	text-indent: 10px;
+	font-size: 20px;
+}
 
-
-
-
-
+@media screen and (min-width: 800px) {
+	.cont-info2{
+		display: none;
+	}
+}
 
 
 

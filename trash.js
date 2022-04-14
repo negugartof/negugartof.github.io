@@ -37,7 +37,7 @@ function parallax(e){
 document.addEventListener("DOMContentLoaded",function(){
 let imagenes =[
 	{img: "img/arte trash/agujero negro.jpg"},
-	{img: "img/arte trash/Art fashion.jpg"},	
+	{img: "img/arte trash/Typography trashh.jpg"},	
 	{img: "img/arte trash/blessed.jpg"},	
 	{img: "img/arte trash/colores.jpg"},
 	{img: "img/arte trash/crazy dreams.jpg"},
@@ -51,7 +51,7 @@ let imagenes =[
 	{img: "img/arte trash/nueva era sticker.jpg"},
     {img: "img/arte trash/Serena.jpg"},
     {img: "img/arte trash/tocarn.jpg"},
-    {img: "img/arte trash/Typography trashh.jpg"},
+    {img: "img/arte trash/Art fashion.jpg"},
 ]
 let contador = 0
 const contenedor = document.querySelector(".slideshow")

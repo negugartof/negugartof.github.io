@@ -242,9 +242,13 @@ img {
 	text-decoration: none;
 }
 
+/* botones indidviduales celu */
 
-
-
+@media screen and (max-width: 800px) {
+	.nav2 .btn2{
+		font-size: 10px;
+	}
+}
 
 
 
@@ -621,7 +625,7 @@ img {
 @media screen and (max-width:800px){
 	.columna{
 		flex:50%;
-		max-width:50%;
+		max-width:49%;
 	}
 	.botones{
 		font-size:15px;

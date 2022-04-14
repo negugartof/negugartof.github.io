@@ -625,7 +625,7 @@ img {
 @media screen and (max-width:800px){
 	.columna{
 		flex:50%;
-		max-width:49%;
+		max-width:48%;
 	}
 	.botones{
 		font-size:15px;

@@ -35,6 +35,10 @@ document.addEventListener("DOMContentLoaded",function(){
         {img: "img/Arte para Musica/nueva era 1.jpg"},
         {img: "img/Arte para Musica/Rufus frente.jpg"},
         {img: "img/Arte para Musica/tapa delantera 2.jpg"},
+        {img: "img/Arte para Musica/connection2.jpg"},
+        {img: "img/Arte para Musica/PAFF new.jpg"},
+        {img: "img/Arte para Musica/PORTADA 4.jpg"},
+        {img: "img/Arte para Musica/pupa californiana.jpg"},
     ]
     let contador = 0
     const contenedor = document.querySelector(".slideshow")

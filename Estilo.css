@@ -85,6 +85,11 @@ img {
 	background-image: url(img/baneranimado.png);
 	animation: slider 10s infinite linear;
 }
+@media screen and (max-width: 799px) {
+	#slider{
+		height: 70px;
+	}
+}
 
 
 @keyframes slider {
@@ -103,20 +108,44 @@ img {
 	left: 75px;
 	font-size: xx-large;
 	font-weight: 650;
-	border-right: solid black 6px;
+	/* border-right: solid rgb(0, 0, 0) 6px; */
 }
 
+
+@media screen and (max-width: 799px) {
+	.titulo{
+		font-size:large;
+	}
+}
+
+
+ /* linea vertical del nav */
 .nav1 .titulo {
 	color: #000;
 	text-decoration: none;
+	height: 120px;
 }
 
+
+
+
+
+
+/* linea horizontal */
 .nav1 {
 	text-align: center;
 	border-bottom: solid black 6px;
-	height: 84px;
+	height: 120px;
 	background-color: white;
 }
+
+@media screen and (max-width: 799px) {
+	.nav1{
+		height: 120px;
+		
+	}
+}
+
 
 .b {
 	color: #000;
@@ -134,7 +163,6 @@ img {
 	position: relative;
 	background-color: transparent;
 	margin-top: 15px;
-	padding: 15px;
 	right: 110px;
 }
 
@@ -159,6 +187,7 @@ img {
 .nav2 {
 	text-align: center;
 }
+
 
 .btn2 {
 	margin-top: 15px;
@@ -510,7 +539,18 @@ img {
 	width: 25%;
 	height: auto;
 }
-
+.diecisiete{
+	margin-top: -25%;
+	margin-left: 20%;
+	width: 25%;
+	height: auto;
+}
+.dieciocho{
+	margin-top: -15%;
+	margin-left: 10%;
+	width: 30%;
+	height: auto;
+}
 
 
 
@@ -821,3 +861,508 @@ textarea{
 .wsp img{
 	border-radius: 50%;
 }
+
+
+
+
+/* Estilo de editorial */
+
+.unoe {
+	margin-top: 0;
+	margin-left: 27%;
+	width: 50%;
+	height: auto;
+}
+.dose {
+	margin-top: 0;
+	margin-left: 27%;
+	width: 50%;
+	height: auto;
+}
+.revista{
+	margin-left: 27%;
+}
+.trese {
+	margin-top: 7%;
+	margin-left: 27%;
+	width: 50%;
+	height: auto;
+}
+.cuatroe {
+	margin-top: -4%;
+	margin-left: 32%;
+	width: 35%;
+	height: auto;
+}
+.cincoe {
+	margin-top: 10%;
+	margin-left: 27%;
+	width: 25%;
+	height: auto;
+}
+.seise {
+	margin-top: -43%;
+	margin-left: 52%;
+	width: 25%;
+	height: auto;
+}
+
+.sietee {
+	margin-top: -10%;
+	margin-left: 35%;
+	width: 30%;
+	height: auto;
+}
+
+.ochoe {
+	margin-top: 17%;
+	margin-left: 30%;
+	width: 50%;
+	height: auto;
+}
+
+.nuevee {
+	margin-top: 8%;
+	margin-left: 35%;
+	width: 40%;
+	height: auto;
+}
+
+.dieze {
+	margin-top: -17%;
+	margin-left: 35%;
+	width: 40%;
+	height: auto;
+}
+
+.oncee {
+	margin-top: 12%;
+	margin-left: 35%;
+	width: 40%;
+	height: auto;
+}
+.docee {
+	margin-top:-15%;
+	margin-left: 35%;
+	width: 40%;
+	height: auto;
+}
+.trecee {
+	margin-top: 30%;
+	margin-left: 30%;
+	width: 25%;
+	height: auto;
+}
+.catorcee{
+	margin-top: 20%;
+	margin-left: 1%;
+	width: 25%;
+	height: auto;
+}
+.quincee{
+	margin-top: -35%;
+	margin-left: 25%;
+	width: 25%;
+	height: auto;
+}
+.dieciseise{
+	margin-top: -28%;
+	margin-left: 52%;
+	width: 25%;
+	height: auto;
+}
+.diecisietee{
+	margin-top: -5%;
+	margin-left: 35%;
+	width: 25%;
+	height: auto;
+}
+.dieciochoe{
+	margin-top: 20%;
+	margin-left: 30%;
+	width: 50%;
+	height: auto;
+}
+
+.diecinuevee{
+	margin-top: -30%;
+	margin-left: 20%;
+	width: 30%;
+	height: auto;
+}
+.veintee{
+	margin-top: -5%;
+	margin-left: 55%;
+	width: 30%;
+	height: auto;
+}
+.veintiunoe{
+	margin-top: -5%;
+	margin-left: 27%;
+	width: 50%;
+	height: auto;
+}
+.veintidose{
+	margin-top: 6%;
+	margin-left: 30%;
+	width: 50%;
+	height: auto;
+}
+/* Estilo de editorial CELULAR */
+.unoec {
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	height: auto;
+}
+.dosec {
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	height: auto;
+}
+.revistac{
+	margin-left: 0%;
+}
+.tresec {
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	height: auto;
+}
+.cuatroec {
+	margin-top: 0;
+	margin-left: 15%;
+	width: 70%;
+	height: auto;
+}
+.cincoec {
+	margin-top: 0;
+	margin-left:1px;
+	width: 49%;
+	height: auto;
+}
+.seisec {
+	margin-top: 0;
+	margin-left:2px;
+	width:49%;
+	height: auto;
+}
+
+.sieteec {
+	margin-top: 0;
+	margin-left: 0;
+	width:100%;
+	height: auto;
+}
+
+.ochoec {
+	margin-top:0;
+	margin-left:0;
+	width: 100%;
+	height: auto;
+}
+
+.nueveec {
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.diezec {
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.onceec {
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	height: auto;
+}
+.doceec {
+	margin-top:0;
+	margin-left: 0%;
+	width: 100%;
+	height: auto;
+}
+.treceec {
+	margin-top: 0;
+	margin-left: 1px;
+	width: 24%;
+	height: auto;
+}
+.catorceec{
+	margin-top: 0;
+	margin-left: 0;
+	width: 24%;
+	height: auto;
+}
+.quinceec{
+	margin-top: 0;
+	margin-left: 0;
+	width: 24%;
+	height: auto;
+}
+.dieciseisec{
+	margin-top: 0;
+	margin-left: 0;
+	width: 24%;
+	height: auto;
+}
+.diecisieteec{
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	height: auto;
+}
+.dieciochoec{
+	margin-top:0;
+	margin-left:1px;
+	width: 49%;
+	height: auto;
+}
+
+.diecinueveec{
+	margin-top: 0;
+	margin-left: 1px;
+	width: 49%;
+	height: auto;
+}
+.veinteec{
+	margin-top: 0;
+	margin-left: 0	;
+	width: 100%;
+	height: auto;
+}
+.veintiunoec{
+	margin-top: 0;
+	margin-left: 0	;
+	width: 100%;
+	height: auto;
+}
+
+
+/* Estilo social media */
+
+.unos {
+	margin-top: 0;
+	margin-left: 19%;
+	width: 60%;
+	height: auto;
+}
+.doss {
+	margin-top: 0;
+	margin-left: 19%;
+	width: 60%;
+	height: auto;
+}
+.tress {
+	margin-top: 0;
+	margin-left: 19%;
+	width: 60%;
+	height: auto;
+}
+.cuatros {
+	margin-top: 6%;
+	margin-left: 19%;
+	width: 30%;
+	height: auto;
+}
+.cincos {
+	margin-top: 6%;
+	margin-left: 0;
+	width: 30%;
+	height: auto;
+}
+.seiss {
+	margin-top: -10%;
+	margin-left: 19%;
+	width: 30%;
+	height: auto;
+}
+.sietes {
+	margin-top: -6%;
+	margin-left: 0;
+	width: 30%;
+	height: auto;
+}
+.ochos {
+	margin-top: 8%;
+	margin-left: 19%;
+	width:30%;
+	height: auto;
+}
+.nueves {
+	margin-top: 8%;
+	margin-left: 0;
+	width: 30%;
+	height: auto;
+}
+.diezs{
+	margin-top: -6%;
+	margin-left: 19%;
+	width: 60%;
+	height: auto;
+}
+.onces {
+	margin-top: 10%;
+	margin-left: 15%;
+	width: 20%;
+	height: auto;
+}
+.doces {
+	margin-top:-8%;
+	margin-left:0%;
+	width: 20%;
+	height: auto;
+}
+.treces {
+	margin-top: -18%;
+	margin-left: 60%;
+	width: 20%;
+	height: auto;
+}
+
+ 
+
+.catorces{
+	margin-top: 5%;
+	margin-left: 20%;
+	width: 20%;
+	height: auto;
+}
+.quinces{
+	margin-top: 5%;
+	margin-left: 0%;
+	width: 20%;
+	height: auto;
+}
+.dieciseiss{
+	margin-top: -18%;
+	margin-left: 60%;
+	width: 20%;
+	height: auto;
+}
+
+
+
+
+/*.diecisietee{
+	margin-top: -5%;
+	margin-left: 35%;
+	width: 25%;
+	height: auto;
+}
+.dieciochoe{
+	margin-top: 20%;
+	margin-left: 30%;
+	width: 50%;
+	height: auto;
+}
+
+.diecinuevee{
+	margin-top: -30%;
+	margin-left: 20%;
+	width: 30%;
+	height: auto;
+}
+.veintee{
+	margin-top: -5%;
+	margin-left: 55%;
+	width: 30%;
+	height: auto;
+}
+.veintiunoe{
+	margin-top: -5%;
+	margin-left: 27%;
+	width: 50%;
+	height: auto;
+}
+.veintidose{
+	margin-top: 6%;
+	margin-left: 30%;
+	width: 50%;
+	height: auto;
+} */
+
+
+/* Social media celu */
+
+.cuatrosc {
+	margin-top: 0;
+	margin-left: 0.5%;
+	width: 49%;
+	height: auto;
+}
+.cincosc{
+	margin-top: 0;
+	margin-left: 0;
+	width: 49%;
+	height: auto;
+}
+.seissc {
+	margin-top: 0;
+	margin-left: 0.5%;
+	width: 49%;
+	height: auto;
+}
+.sietesc{
+	margin-top: 0;
+	margin-left: 0;
+	width: 49%;
+	height: auto;
+}
+.ochosc {
+	margin-top: 0;
+	margin-left: 0.5%;
+	width: 49%;
+	height: auto;
+}
+.nuevesc{
+	margin-top: 0;
+	margin-left: 0;
+	width: 49%;
+	height: auto;
+}
+.oncesc{
+	margin-top: 0;
+	margin-left: 1%;
+	width: 32%;
+	height: auto;
+}
+.docesc{
+	margin-top: 0;
+	margin-left: 0;
+	width: 32%;
+	height: auto;
+}
+.trecesc{
+	margin-top: 0;
+	margin-left: 0;
+	width: 32%;
+	height: auto;
+}
+
+.catorcesc{
+	margin-top: 0;
+	margin-left:1%;
+	width: 32%;
+	height: auto;
+}
+.quincesc{
+	margin-top: 0;
+	margin-left: 0%;
+	width: 32%;
+	height: auto;
+}
+.dieciseissc	{
+	margin-top: 0;
+	margin-left: 0;
+	width: 32%;
+	height: auto;
+}
+

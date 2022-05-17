@@ -52,6 +52,8 @@ let imagenes =[
     {img: "img/arte trash/Serena.jpg"},
     {img: "img/arte trash/tocarn.jpg"},
     {img: "img/arte trash/Art fashion.jpg"},
+	{img: "img/arte trash/destroy.jpg"},
+    {img: "img/arte trash/juancete.jpg"},
 ]
 let contador = 0
 const contenedor = document.querySelector(".slideshow")
